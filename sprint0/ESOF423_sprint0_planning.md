@@ -36,9 +36,9 @@ Define and document toolchain and administrative decisions in scope document. Se
   * touch friendly
 * desktop friendly for admin interface
 
-## Link to expanded product backlog tasks and volunteers for the sprint
+## [Link to expanded product backlog tasks and volunteers for the sprint](https://trello.com/b/yGJla4Id/sprint-zero)
 
-## Link to sprint burn down chart
+## [Link to sprint burn down chart](https://github.com/ESOF-423/Planning-Repository/blob/master/sprint0/chart.png)
 
 ## action items (also check Trello)
 
