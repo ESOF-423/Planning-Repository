@@ -11,6 +11,11 @@ This document outlines the specifications of the Senior Center App Project for t
 The Belgrade Senior Center wants to be able to electronically record, store and reference client data in their center. They need to be able to view and manage all their clients via a web app. It would allow the clients to be sorted and contacted based on characteristics or events they have attended. There would also be a view that allows clients to sign into events. 
 
 Track event attendance for:
+- Yoga
+- Exercise
+- etc.
+
+Track Service attendance for:
 - Blood Pressure Checks (Every other Thursday)
 - Tax services (Tuesdays during tax season)
 
@@ -19,43 +24,102 @@ Track event attendance for:
 
 ## Product Description
 
-### Desired Functionality
-- Data Stored about Clients: (MVP)
-  - Name
-  - Address
-  - Birthday -> Age
-  - Phone number
-  - Email address
-  - Emergency contacts (name, address, phone number, relationship)+
-  - Medical information (diets, allergies, disabilities, medications, medical issues)
-  - Membership status (start date, renewal data, date paid, payment method (cash/check & check #))
-  - Meals (home delivered vs. in center, combination?)
-  - Activities of interest 
-    - Payment (date paid, payment method (cash/check & check #), payment recurrence daily/weekly/monthly/yearly)
-  - Social events attended and Services used (blood pressure checks, tax services, driving courses, educational classes)
+## Desired Functionalities
+
+### 1) Data Stored about Clients: (MVP)
+
+#### Required Info
+- Name
+- Address
+- Birthday
+- Age
+- Emergency contacts (name, address, phone number, relationship, etc)
+- Membership status
+    - Default to unpaid, optional to upgrade to paid
+
+#### Optional Info
+- Email address
+- Phone number
+- Upgraded Membership status (start date, renewal data, date paid, payment method (cash/check & check #))
+    - Payment (date paid, payment recurrence daily/weekly/monthly/yearly)
     - Can be open to non-members (still should sign in or have some way of taking attendance)
-  - Number of duplicated and unduplicated members for each activity and service
-  - Notes section for other more unpredictable information?
-  - Waivers signed
-  - Forms filled out (expiration date)
+- Meals (home delivered vs. in center, combination?)
+- Activities of interest   
+- Social events attended and Services used 
+    - blood pressure checks, tax services, driving courses, educational classes
+- Notes section for other more unpredictable information?
+- Waivers signed
+- Forms filled out (expiration date)
+- Days visited
+- times/duration of visits
+- food allergies, need to know medical info
+
+#### Sensitive Info
+- Medical information (diets, allergies, disabilities, medications, medical issues)
+- Income level (For poverty level for other forms)
+- payment method (cash/check & check number)
+- Tax Service Info
+
+### Data Stored about Volunteers (MVP)
+#### Required Info
+- Name
+- Birthdate
+- Work Signed Up For
+    - Options of work to choose from
+- Emergency Contact
+- Hours worked
+    - Check in/out times?
+
+#### Optional Info
+- etc
+    
+### 2) Manage Forms
 - Be able to print reports for grant writing (MVP)
-  - Area 4 form (need: budget, number of people served, number of meals served, profit)
-  - Mast Form (filled out when applying for membership, info goes to both places)
-  - Gallatin United Way
-  - Meals on Wheels (extention of Mast form, same form for in center and in home meals) (non mebers can eat but they need to have a mast form filled out)
+- input information into forms online
+- auto populate forms information
+- store filed forms online
+
+#### Area 4 form 
+-need: budget, number of people served, number of meals served, profit
+-Automated population of form for grant writing
+
+#### Mast Form 
+- filled out when applying for membership, info goes to both places
+
+#### Gallatin United Way
+
+#### Meals on Wheels 
+- extention of Mast form, same form for in center and in home meals) (non mebers can eat but they need to have a mast form filled out
+
+### 3) Admin, Volunteer, Member Privileges
+#### Administrator Privileges
 - Easily add new services and activities (MVP)
 - Administrators have full access to edit all data (MVP)
-- Volunteers have more limited data access (MVP but maybe lower priority)
-  - Can sign in and make edits to certain information
-  - History of hours worked
-  - Record data changed while "on duty"? (reach goal)
-  - Process volunteer applications (is it an application or a sign up?)
-- Members can sign into events (MVP)
-  - Register in advance (reach goal)
-- Medical Closet Inventory (reach goal)
-- Newsletter with Calendar and Menu (reach goal)
+- Access Medical Closet Inventory (reach goal)
+- Send Newsletter with Calendar and Menu (reach goal)
+- Search and Sort members, events, services, etc (MVP)
+- Edit volunteer hours
+- Check in/out medical closet items
 
-### Specifications and Technologies
+#### Volunteer Privileges
+- Volunteers have more limited data access (MVP but maybe lower priority)
+    - Need to see member's ages for age benefits
+        - ex. over 60 eat free
+- Can sign in and make edits to certain information
+- History of hours worked
+- Record data changed while "on duty"? (reach goal)
+- Process volunteer applications (is it an application or a sign up?)
+- Receive Newletter with calendar and menu
+- Fill out forms to register new members
+- Check in/out medical closet items
+
+### Member Privileges
+- Members can sign into events (MVP)
+- Register in advance (reach goal)
+- Input basic information
+
+
+## Specifications and Technologies
 ...
 
 ## Belgrade Senior Center Visits
