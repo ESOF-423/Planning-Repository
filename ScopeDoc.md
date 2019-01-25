@@ -31,8 +31,8 @@ The Belgrade Senior Center wants to be able to electronically record, store and 
   - Number of duplicated and unduplicated members for each activity and service (?)
   - volunteers (?)
   - notes section for other more unpredictable information?
-- Be able to print reports for rant writing
-- Easily add new services and activites
+- Be able to print reports for grant writing
+- Easily add new services and activities
 - Administrators have full access to edit all data
 - Volunteers have more limited data access
 - Members can register themselves for events (register in advance or sign in?)
@@ -49,12 +49,12 @@ The Belgrade Senior Center wants to be able to electronically record, store and 
 2. Are there different membership levels?
 3. Are there any clients who take both home delivered and in center meals?
 4. Should we be able to store medical information like from the blood pressure checks?
-5. What's the difference between the activities of interest and the services used (yoga classes and educational classes seem like they should be in the same categry)?
+5. What's the difference between the activities of interest and the services used (yoga classes and educational classes seem like they should be in the same category)?
 6. What are duplicated and unduplicated members?
 7. For managing volunteers, are the seniors doing the volunteering or are other community members volunteering at the senior center?
 8. Should members be able to register in advance for classes? Or just sign in when they get there?
 8. Information (eventually) needed:
-	- lists of classes/activites offered
+	- lists of classes/activities offered
 	- example reports for grants
 	
 
