@@ -44,6 +44,8 @@ Track event attendance for:
   - Gallatin United Way
   - Meals on Wheels (extention of Mast form, same form for in center and in home meals) (non mebers can eat but they need to have a mast form filled out)
 - Easily add new services and activities (MVP)
+  - Schedule events and classes
+  - Schedule recurring events (reach goal)
 - Administrators have full access to edit all data (MVP)
 - Volunteers have more limited data access (MVP but maybe lower priority)
   - Can sign in and make edits to certain information
@@ -56,7 +58,21 @@ Track event attendance for:
 - Newsletter with Calendar and Menu (reach goal)
 
 ### Specifications and Technologies
-...
+#### Profiles/Views
+We are planning to create three different types of profiles and views available in the app
+Login as:
+- Admin
+  - username and password to login
+  - Has full rights to view and edit all the information stored in the database
+- Volunteer
+  - username and password to login
+  - has limited rights to view and edit the information stored
+  - can add new members
+  - cannot see sensitive medical information
+- Senior (different term?)
+  - use first/last name to sign in
+  - can sign themselves into events
+  - recieves notifications about missing payment/information                        
 
 ## Belgrade Senior Center Visits
 ### Initial Visit 1-24-19
