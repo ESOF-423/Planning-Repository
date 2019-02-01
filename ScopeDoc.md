@@ -31,7 +31,6 @@ Track Service attendance for:
 
 ## Product Description
 
-<<<<<<< HEAD
 ### Desired Functionality
 - Data Stored about Clients: (MVP)
   - Name
@@ -198,16 +197,9 @@ Login as:
 
 ## Specifications and Technologies
 
-`TODO`
->>>>>>> 424b0b10c9f1cb5ec4fe97ef2e79d132cb2bbe03
-
 ## Belgrade Senior Center Visits
 
 Initial Visit 1-24-19
-
-Summary/Notes
-
-`TODO`
 
 Questions
 
