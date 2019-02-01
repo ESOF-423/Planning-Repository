@@ -1,6 +1,6 @@
 # Senior Center App Scope Doc
 
-Trent Baker, Ben Bushnell, Brian Foley, Ian Hecker, Grace Walkuski
+Trent Baker, Ben Bushnell, Ian Hecker, Grace Walkuski
 
 Montana State University, ESOF 423, Spring 2019
 
